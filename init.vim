@@ -1,4 +1,4 @@
-"╔═══════════════════════════════════════════════════════════════════════════╗
+
 "║ Copyright © 2021 Sam4uk                                                   ║
 "║                                                                           ║
 "║Permission is hereby  granted, free of charge , to  any  person obtaining a║
@@ -20,7 +20,7 @@
 "║DEALINGS IN THE SOFTWARE.                                                  ║
 "║                                                                           ║
 "║                                                                           ║
-"║                                              Last update:25-07-21 14:59:24║
+"║                                              Last update:08-07-24 17:59:27║
 "╚═══════════════════════════════════════════════════════════════════════════╝
 
 " AUTO LOAD PLAGIN MANAGER {{{
@@ -67,7 +67,7 @@ endif
 " }}}
 
 " ЗАГАЛЬНІ{{{
-    
+    Plug 'normen/vim-pio'
     Plug 'tpope/vim-surround'
     Plug 'vim-airline/vim-airline' " Можифікувати рядок статусу
     Plug 'vim-airline/vim-airline-themes'
@@ -78,7 +78,7 @@ endif
     " NERDTree - Швидкий перегляд файлів
     Plug 'preservim/nerdtree'
     " Сoc - автодоповнення 
-    "  Plug 'neoclide/coc.nvim', {'branch': 'release'}
+      Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Доповнення для NERDTree
     Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
     Plug 'scrooloose/nerdcommenter'
@@ -86,7 +86,7 @@ endif
     Plug 'airblade/vim-gitgutter'
     Plug 'ryanoasis/vim-devicons'
     " Перевірка синтаксисуа
-    "  Plug 'scrooloose/syntastic' 
+      Plug 'scrooloose/syntastic' 
     " Плагин автозавершення
     "  Plug 'Valloric/YouCompleteMe'
 " }}}
