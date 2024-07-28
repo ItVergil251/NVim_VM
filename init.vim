@@ -78,7 +78,7 @@ endif
     " NERDTree - Швидкий перегляд файлів
     Plug 'preservim/nerdtree'
     " Сoc - автодоповнення 
-      Plug 'neoclide/coc.nvim', {'branch': 'release'}
+      "Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Доповнення для NERDTree
     Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
     Plug 'scrooloose/nerdcommenter'
@@ -107,7 +107,7 @@ if it_Vim
     set laststatus=2
     set hlsearch incsearch
     syntax enable
-
+let g:coc_disable_startup_warning = 1
     " кращий бекап, свап та інші збереження для Vim (NVim має прекрасні за
     " замовчуванням
     set directory=~/.vim/dirs/tmp     " directory to place swap files in
