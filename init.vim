@@ -20,7 +20,7 @@
 "║DEALINGS IN THE SOFTWARE.                                                  ║
 "║                                                                           ║
 "║                                                                           ║
-"║                                              Last update:08-07-24 17:59:27║
+"║                                              Last update:27-10-24 00:50:51║
 "╚═══════════════════════════════════════════════════════════════════════════╝
 
 " AUTO LOAD PLAGIN MANAGER {{{
@@ -58,8 +58,8 @@ endif
 
 " ДЛЯ NVim{{{
 if it_NVim
-    Plug 'ayu-theme/ayu-vim' " Кольорова схема
-    "Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+    Plug 'nordtheme/nord' " Кольорова схема
+    Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 else
     " Налаштування для Vim щоб був схожий на NVim
     Plug 'noahfrederick/vim-neovim-defaults'
@@ -140,8 +140,9 @@ if it_NVim
     :PlugInstall
   endif
   set termguicolors
-  colorscheme ayu
-  let ayucolor="dark" 
+"  colorscheme nord
+  set background=dark
+ " let ayucolor="dark" 
 endif
 " }}}
 
