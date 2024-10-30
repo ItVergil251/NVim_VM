@@ -20,6 +20,8 @@
 "║DEALINGS IN THE SOFTWARE.                                                  ║
 "║                                                                           ║
 "║                                                                           ║
+"║                                              Last update:30-10-24 11:22:56║
+"║                                              Last update:23-10-24 12:20:23║
 "║                                              Last update:27-10-24 00:50:51║
 "╚═══════════════════════════════════════════════════════════════════════════╝
 
@@ -140,7 +142,7 @@ if it_NVim
     :PlugInstall
   endif
   set termguicolors
-"  colorscheme nord
+  "colorscheme nord
   set background=dark
  " let ayucolor="dark" 
 endif
